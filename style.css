@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.w30{
+    border-style:dotted;
+    position: relative;
+    float: left;
+    width : 30%;
+    color: red;
+    height: 100%;
+}
+.w70{
+    border-style:dotted;
+    position: relative;
+    float: right;
+    width : 70%;
+    color: red;
+    height: 100%;
+}
+.h40{
+    border-style:dotted;
+    height: 40%;
+}
+.h20{
+    border-style:dotted;
+    height: 20%;
+} 
+.h80{
+    border-style:dotted;
+    height: 80%;
+}
+#container{
+    position: absolute;
+    height: 1000px;
+    width: 1000px;
+    border-style: dotted;
+    color: black;
+    padding: 20px;
+}
+.row{
+    border-color: blue;
+    color:black;
+    font-weight: bold;
+}
